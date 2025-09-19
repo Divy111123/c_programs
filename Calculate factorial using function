@@ -10,4 +10,4 @@ int factorial(int a){
     int main(){
         int result = factorial(5);
         printf("result = %d",result);
-    } edhuku discription kudu
+    } 
