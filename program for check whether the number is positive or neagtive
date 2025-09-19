@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int num =10;
+    if(num < 0)
+    {
+        printf("negative number");
+    }
+    else if  (num > 0 || num == 0)
+    {
+        printf("postive number");
+    }
+    else {
+        printf("wrong ");
+    }
+
+    return 0;
+}
