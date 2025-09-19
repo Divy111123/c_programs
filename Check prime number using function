@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int Isprime(int a){
+    
+    for(int i = 2;i<=a;i++){
+        if(a % i == 0){
+            return 0;
+        }
+        else{
+            return 1;
+        }
+    }
+}
+    int main(){
+        int num ;
+        printf("enter the  number :\n");
+        scanf("%d",&num );
+        if(Isprime(num)){
+            printf("prime");
+        }
+        else{
+            printf(" not prime");
+        }
+    }
